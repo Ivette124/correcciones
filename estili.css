@@ -96,7 +96,7 @@ min-height: 128px
 position: absolute;
 right: 0;
 top: 0;
-margin: 1em 15px 0 180px;
+margin:0;
 padding: 0.5em;
 background: #73BA70;
 border-radius: 15px;
@@ -137,7 +137,7 @@ min-height: 128px
 position: absolute;
 right: 0;
 top: 0;
-margin: 1em 15px 0 180px;
+margin:0;
 padding: 0.5em;
 background: #91bcdb;
 border-radius: 15px;
@@ -178,7 +178,7 @@ min-height: 128px
 position: absolute;
 right: 0;
 top: 0;
-margin: 1em 15px 0 180px;
+margin: 0;
 padding: 0.5em;
 background: #91bcdb;
 border-radius: 15px;
@@ -201,7 +201,7 @@ box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;
 #contenido div ul
 {min-height: 128px;
 left: 0;
-margin: 1em 15px 0 180px;
+margin: 0;
 padding: 0.5em;
 background: #73BA70;
 border-radius: 15px;
