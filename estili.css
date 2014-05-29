@@ -200,7 +200,6 @@ box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;
 }
 #contenido div ul
 {min-height: 128px;
-left: 0;
 margin: margin: 1em 15px 0 180px;
 padding: 0.5em;
 background: #73BA70;
@@ -213,13 +212,11 @@ list-style: none;
 #contenido div figure 
 {
 position: relative;
-left: 0;    
 
 }
 #contenido div figure img
 {
-float: rightt;
-left:0;    
+float: right;
 width: 100px;
 padding: 2em;
 position: absolute;    
