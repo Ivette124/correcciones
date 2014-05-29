@@ -1,0 +1,292 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #100f0f;
+    padding: 2em 2em 4em;
+}
+header{
+
+margin: 0;
+padding: 0;
+position: relative;
+overflow: hidden;
+
+}
+
+header img 
+{
+width: 88px;
+position: absolute;
+top: 0;
+}
+
+header h1
+{
+background: lightgray;
+font-family:serif;
+font-size: 16px;
+margin: 88px 0 0px 0;
+text-align: center;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;    
+}
+
+#menu{
+
+    background:#91bcdb;
+    margin:0 auto;
+    text-align: center;
+    padding:20px 0;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;
+    }
+#menu ul{
+         padding: 0;
+        }
+#menu ul li{
+     display: inline-block;
+     list-style: none;
+     padding: 0.5em 1.5em 0.5em 1.5em;
+     background: #89c989;
+     margin:0 1em 1em 0;
+    border-radius: 15px
+     }
+#menu ul li a{
+     color: white;
+     text-decoration: none;
+     width: 100%; 
+     padding: 0.5em 0.5em;    
+}
+    
+#contenido .item_1
+{
+
+position: relative;
+overflow: hidden;
+max-height: 500px;
+   
+
+}
+
+#contenido .item_1 h2 a
+{
+text-decoration: none;
+color: black;
+}
+
+#contenido .item_1 .celular
+
+{
+
+float: left;
+
+}
+
+#contenido .item_1 .celular img
+{
+
+width: 160px;
+    
+}
+
+#contenido .item_1 p
+
+{
+min-height: 128px
+position: absolute;
+right: 0;
+top: 0;
+margin: 1em 15px 0 180px;
+padding: 0.5em;
+background: #73BA70;
+border-radius: 15px;
+max-height: 250px;
+text-align: left;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;    
+}
+
+#contenido .item_3
+{
+
+position: relative;
+overflow: hidden;
+max-height: 800px;
+   
+
+}
+
+#contenido .item_3 h2 a
+{
+text-decoration: none;
+color: black;
+}
+
+#contenido .item_3 div iframe{
+    background: transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width:95%;
+    position: relative;
+    }
+
+#contenido .item_3 p
+
+{
+min-height: 128px
+position: absolute;
+right: 0;
+top: 0;
+margin: 1em 15px 0 180px;
+padding: 0.5em;
+background: #91bcdb;
+border-radius: 15px;
+max-height: 250px;
+text-align: left;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;    
+}
+
+#contenido .item_2 h2 a
+{
+text-decoration: none;
+color: black;
+text-align: center;    
+}
+
+#contenido .item_2
+{
+
+position: relative;
+overflow: hidden;
+max-height: 800px;
+
+}
+
+
+#contenido .item_2 .app img
+
+{
+top: 0;
+float:left;
+width: 180px;
+}
+
+#contenido .item_2 p
+
+{
+min-height: 128px
+position: absolute;
+right: 0;
+top: 0;
+margin: 1em 15px 0 180px;
+padding: 0.5em;
+background: #91bcdb;
+border-radius: 15px;
+max-height: 250px;
+text-align: left;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;    
+}
+
+#contenido div
+{
+ position: relative;
+  
+}
+#contenido div p 
+{
+color: #292525; 
+font-family: sans-serif;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;    
+}
+#contenido div ul
+{min-height: 128px;
+left: 0;
+margin: 1em 15px 0 180px;
+padding: 0.5em;
+background: #73BA70;
+border-radius: 15px;
+text-align: left;
+box-shadow: rgba(0,0,0,0.5) -2px 2px 15px; 
+list-style: none;    
+}
+
+#contenido div figure 
+{
+position: relative;
+left: 0;    
+
+}
+#contenido div figure img
+{
+float: left;
+left:0;    
+width: 100px;
+padding: 2em;
+position: absolute;    
+    
+}
+
+#contenido .item_redes
+{
+  background: #2a8170; 
+  position: relative;
+  box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;
+}
+#contenido .item_redes img
+{
+width:50px;
+
+}
+footer
+    {font-family: 'Handlee', cursive;
+     background:lightgray;
+     color:Black;
+     text-align: center;
+     box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;   
+    }   
+
+@media screen and (min-width:800px){ 
+    body{
+    background-image: url(textura.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    opacity:inherit;
+    }
+    
+#contenido{
+    overflow: hidden;
+          }
+    
+#contenido .item_1{ 
+      width:49%;
+      float:left;
+      margin-right:1%
+         }
+#contenido .item_3{
+       width:49%;
+      float:left;
+      margin-right:1%
+         }
+#contenido .item_2{
+      width:49%;
+      float: left;
+      margin-right:1%
+}
+
+#contenido .item_información
+    {
+    width:49%;
+    float: left;
+    margin-right:1%
+    }
+#contenido .item_redes
+    
+    {
+     width:99%;
+    float: left;
+    margin-right:1%    
+    
+}
+
+
+
